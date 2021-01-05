@@ -133,7 +133,6 @@ if (!global.atob) {
 }
 
 const Stack = createStackNavigator();
-// const AuthContext = createContext();
 
 export default function App() {
   const [loading, setLoading] = useState(true);

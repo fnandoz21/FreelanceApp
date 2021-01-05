@@ -35,6 +35,11 @@ export default StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  testButton: {
+    width: 80,
+    alignItems: "center",
+    justifyContent: "center",
+  },
   buttonText: {
     color: "white",
     fontSize: 16,
@@ -42,6 +47,10 @@ export default StyleSheet.create({
   listContainer: {
     marginTop: 20,
     padding: 20,
+    width: 200,
+    // flexGrow: 1,
+    // flex: 1,
+    // height:
   },
   entityContainer: {
     marginTop: 16,
